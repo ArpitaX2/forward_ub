@@ -29,6 +29,11 @@
       "value": ""
       "required": "True"
     }
-  }
+  },
+   "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
 
