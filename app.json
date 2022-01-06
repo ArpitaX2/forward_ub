@@ -24,4 +24,10 @@
       "value": ""
       "required": "True"
     },
+    "TO_GROUP":{
+      "description": "where forwarded message go"
+      "value": ""
+      "required": "True"
+    }
+}
 
