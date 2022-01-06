@@ -21,7 +21,7 @@
             "description": "You API ID from my.telegram.org",
             "value": ""
         },
-        "STRING_SESSION": {
+        "SESSION_STRING": {
             "description": "Take your Pyrogram string session from @GenSTR_bot",
             "value": ""
         },
