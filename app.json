@@ -1,39 +1,42 @@
 {
-"name": "A Forward Userbot",
-"repository": "https://github.com/ArpitaX/forward_ub",
-"logo": "https://avatars1.githubusercontent.com/u/34474300?s=200&v=4",
-"keywords": ["python", "pyrogram", "telegram"],
-"env": {
-    "API_ID": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
-      "value": "35673",
-      "required": "True"
+    "name": "Forwarder Userbot",
+    "description": "Welcome to my userbot.Hope you will enjoy😅❤",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "arpitaX",
+        "forward_uv"
+    ],
+    "repository": "https://github.com/ArpitaX/forward_ub",
+    "website": "t.me/ArpitaX",
+    "success_url": "https://t.me/ArpitaX",
+    "env": {
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "STRING_SESSION": {
+            "description": "Take your Pyrogram string session from @GenSTR_bot",
+            "value": ""
+        },
+        "FROM_GROUP": {
+            "description": "from where u wanna take content",
+            "value": ""
+        },
+        "TO_GROUP": {
+            "description": "where u wanna, forward",
+            "value": ""
+        }
     },
-    "API_HASH": {
-      "description": "The number of processes to run.",
-      "value": "fgu22jgee6",
-      "required": "True"
-    },
-    "SESSION_STRING": {
-      "description": "The Session String",
-      "value": "srtgdde#$-drygs",
-      "required": "True"
-    },
-    "FROM_GROUP":{
-      "description": "enter channel id or group id from where u want to forward. If two id then use ","
-      "value": ""
-      "required": "True"
-    },
-    "TO_GROUP":{
-      "description": "where forwarded message go"
-      "value": ""
-      "required": "True"
-    }
-  },
-   "buildpacks": [
+    "buildpacks": [
         {
             "url": "heroku/python"
         }
     ]
 }
-
