@@ -22,7 +22,7 @@
             "value": ""
         },
         "SESSION_STRING": {
-            "description": "Take your Pyrogram string session from @GenSTR_bot",
+            "description": "Take your Pyrogram string session",
             "value": ""
         },
         "FROM_GROUP": {
