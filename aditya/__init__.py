@@ -1,10 +1,13 @@
-from aditya import *
-from aditya import adi
+import os
+from pyrogram import Client
+#from plugins import *
 
-from aditya.modules import *
+API_ID = int(os.environ["API_ID"])
+API_HASH = os.environ["API_HASH"]
+SESSION = os.environ["SESSION_STRING"]
 
-
-
-
-if __name__ == "__main__":
-    arpi.run()
+adi = Client(
+    SESSION,
+    api_id=API_ID,
+    api_hash=API_HASH
+)
