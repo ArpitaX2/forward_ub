@@ -1,5 +1,5 @@
 from aditya import *
-from aditya import arpi
+from aditya import adi
 
 from aditya.modules import *
 
